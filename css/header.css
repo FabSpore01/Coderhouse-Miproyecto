@@ -2,23 +2,29 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
-    bottom: 0;
+    padding: 10px;
+
     position: sticky;
-    width: 100px;
-    top: 6px;
+    width: 100%;
+    top: 0px;
+    background-color: var(--color-primario);
+    z-index: 999;
 }
-.navbar{
+
+header img.imagenLogoHeader{
+    width: 50px;
+}
+
+header .navbar{
     display: flex;
-    gap: 5px;
+    gap: 50px;
+    font-weight: 800;
 }
-.menu{
-    display: none;
-    padding-right: 50px;
+
+.navbar a{
+    transition: all 100ms; 
 }
-header img.ImagenLogoHeader{
-    width: 80px;
-}
+
 .navbar a:hover{
     color: var(--color-secundario);
     padding-bottom: 2px;
@@ -34,6 +40,10 @@ header i{
 }
 header i:hover{
     color: var(--color-secundario); 
+}
+
+.menu{
+    display: none;
 }
 
 @media (max-width: 700px){
