@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo\ bonito.gif);
+    color: rgb(255, 255, 255);
+}
+.section-principal{
+    background-image: url(../img/banner.png);
+    color: black;
+    text-align: center;
+}
+.section-tres{
+    text-align: center;
+}
+
+.img1{
+    height: 270;
+    width: 400px;
+}
+.img2{
+    height: 270;
+    width: 400px;
+}
+.body-nevado{
+    background-image: url(../img/montaña.png);
+
+}
+.section-nevado{
+    background-image: url(../img/banner.png);
+    color: black;
+    text-align: center;
+}
+.section-nevado2{
+    background-image: url(../img/banner.png);
+    color: black;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+}
+footer{
+    background-image: url(../img/banner.png);
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+.imgfooter1{
+    height: 50px;
+    width: 50px;
+}
+
+.body-verde{
+    background-image: url(../img/imagen\ montaña1.png);
+}
+.body-otoño{
+    background-image: url(../img/desierto1.png);
+}
+.body-playa{
+    background-image: url(../img/playa1.png);
+}
+.body-cliente{
+    background-image: url(../img/5991.jpg);
+}
+.navcliente{
+    text-align: center;
+}
