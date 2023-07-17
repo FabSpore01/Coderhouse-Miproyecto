@@ -4,81 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="./img/world.png" type="image/x-icon">
-    <title>PixelWorld</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!--link a google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!--link a fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/Maldito-Pato.jpg" type="image/x-icon">
+    <!-- link a css-->
+    <link rel="stylesheet" href="./Css/globals.css">
+
+    <title> PixelWorld</title>
+
 </head>
 
 <body>
     <header>
-        <section class="section-principal">
-            <nav>
-                <h1>PixelWorld</h1>
-                <img src="./img/Mi proyecto (3).png" alt="" width="300" height="100">
-            </nav>
-        </section>
-    </header>
-    <main>
-        <section class="section-principal">
-            <h2>Escoge tu mundo y crea tu vida</h2>
-            <form action="">
-                <fieldset>
-                    <legend>Cree su personaje</legend>
-                    <label for="Nombre">Usuario</label>
-                    <input type="text" name="" id="Nombre" placeholder="Ingrese su usuario" required>
-                    <label for="contraseña">Contraseña</label>
-                    <input type="text" id="contraseña" placeholder="Ingrese su contraseña" required>
-                    <label for="mail">Mail</label>
-                    <input type="email" id="mail" placeholder="Ingrese su Mail">
-                    <label for="Hombre">Hombre</label>
-                    <input type="radio" id="Hombre" name="sexo" value="hombre">
-                    <label for="Mujer">Mujer</label>
-                    <input type="radio" id="Mujer" name="sexo" value="mujer">
-                    <label for="">Aceptar terminos y condiciones</label>
-                    <input type="checkbox" name="aceptar" id="aceptar" value="1" required>
-                    <input type="submit">
-                    <input type="reset">
-                </fieldset>
-            </form>
-            <br>
-        </section>
-        <section class="section-tres">
-            <form action="">
-            <fieldset>
-                <h3>Seleccione su terreno</h3>
-            </fieldset>
-        </section>
-        <div class="contenedor">
-            <button type="button">
-                <a href="./pages/mundonevado.html">
-                    <img src="./img/Sin título.png" alt="">
-                </a>
-            </button>
-            <button type="button">
-                <a href="./pages/mundoverde.html">
-                    <img src="./img/imagen montaña.png" alt="">
-                </a>
-            </button>
-            <button type="button">
-                <a href="./pages/mundootoño.html">
-                    <img src="./img/desierto.png" alt="">
-                </a>
-            </button>
-            <button type="button">
-                <a href="./pages/mundoplayero.html">
-                    <img src="./img/playa.png" alt="">
-                </a>
-            </button>
-            </div>
-        </form>
-    </main>
-    <footer>
-        <p>Contactame!</p>
-        <nav>  <!-- Etiqueta contenedora general -->
-            <a target="_blank" href="#" ><i class="fa-brands fa-github-alt"></i></a>
-            <a target="_blank" href="#" ><i class="fa-brands fa-linkedin-in"></i></a>
+        <img src="./img/image.png" alt="Logo Github" class="ImagenLogoHeader">
+        <p>Mendoza</p>
+        <nav class="nav.header">
+            <ul class="navbar">
+                <li>
+                    <a target="_blank" href="#">Inicio</a>
+                </li>
+                <li>
+                    <a target="_blank" href="#">Productos</a>
+                </li>
+                <li>
+                    <a target="_blank" href="">Servicios</a>
+                </li>
+                <li>
+                    <a target="_blank" href="./pages/contactos.html">Contacto</a>
+                </li>
+            </ul>
         </nav>
-    </footer>  
+        <i class="fa-solid fa-square-minus menu" ></i>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="bannerinfo">
+            <h1>Lucas Yanzon</h1>
+            <h2>Proyecto desarrollado en taller de programacion</h2>
+            </div>
+        </div>
+        <section class="ListadoCartas">
+            <article class="carta">
+                <img src="./img/patoloko.webp" alt="">
+                <div class="info">
+                    <h2>Pato Pagina</h2>
+                    <p>Creador: Luquitas</p>
+                    <a href="#" class="button">Ver proyecto</a>
+                </div>
+            </article>
+            <article class="carta">
+                <img src="./img/patoloko.webp" alt="">
+                <div class="info">
+                    <h2>Pato Pagina</h2>
+                    <p>Creador: Luquitas</p>
+                    <a href="#" class="button">Ver proyecto</a>
+                </div>
+            </article>
+        </section>
+        <a href="#top"><i class="fa-solid fa-carrot arrow-top"></i></a>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <button>
+                            <i class="fa-solid fa-house">Instagram</i>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://es-la.facebook.com/" target="_blank">
+                        <button>
+                            <i class="fa-brands fa-facebook"></i>Facebook</i>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <button>
+                            <i class="fa-brands fa-youtube">Youtube</i>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <button>
+                            <i class="fa-solid fa-phone">Contacto</i>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p>Todos los derechos reservados a la casa del futuro</p>
+    </footer>
 </body>
 
 </html>
+
+
+
+
+
+
+
