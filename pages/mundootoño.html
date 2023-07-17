@@ -4,55 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="../img/world.png" type="image/x-icon">
-    <title>PixelWorld</title>
-    <link rel="stylesheet" href="../css/global.css">
+
+    <!-- link a google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- link a fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="./img/world.png" type="image/x-icon">
+
+    <!-- link a css -->
+    <link rel="stylesheet" href="./css/global.css">
+
+    <title>Programación web</title>
 </head>
 
-<body class="body-otoño">
-    <header>
-        <section class="section-nevado">
-            <nav>
-                <h1>PixelWorld</h1>
-                <button type="button">
-                    <a href="../index.html">
-                        <img src="../img/Mi proyecto (3).png" alt="" width="300" height="100">
-                    </a>
-                </button>
-            </nav>
-        </section>
+<body>
+    <header> <!-- Etiqueta semantica de encabezado -->
+        <img src="./img/Mi proyecto (3).png" alt="Logo Github" class="imagenLogoHeader">
+        <nav> <!-- Etiqueta semantica barra de navegación -->
+            <ul class="navbar"> <!-- Etiqueta lógica lista desordenada -->
+                <li> <!-- Etiqueta lógica item de la lista -->
+                    <a target="_blank" href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Quiénes somos</a>
+                </li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <nav> <!-- Etiqueta contenedora general -->
+            <a target="_blank" href="#"><i class="fa-brands fa-github-alt"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <i class="fa-solid fa-bars menu"></i>
+        </nav>
     </header>
     <main>
-        <section class="section-nevado2">
-            <h2>Escoge tu mundo y crea tu vida</h2>
+        <div class="banner">
+            <div class="bannerinfo">
+                <img src="./img/Mi proyecto (3).png" alt="" class="imgbanner">
+                <h1>Elige tu propio mundo</h1>
+            </div>
+        </div>
+        <section class="listadoCartas">
+
+            <article class="card">
+                <img src="./img/montaña.png" alt="Imagen del proyecto">
+                <div class="info">
+                    <h2>Mundo Nevado</h2>
+                    <p>Creador: GtuvToxic</p>
+                    <a href="./pages/mundonevado.html" class="button">Ver Mundo</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="./img/desierto.png" alt="Imagen del proyecto">
+                <div class="info">
+                    <h2>Mundo Desierto</h2>
+                    <p>Creador: Armydestrix</p>
+                    <a href="/pages/mundootoño.html" class="button">Ver Mundo</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="./img/playa.png" alt="Imagen del proyecto">
+                <div class="info">
+                    <h2>Mundo Playero</h2>
+                    <p>Creador: Grefdast</p>
+                    <a href="/pages/mundoplayero.html" class="button">Ver Mundo</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="./img/imgmontaña.png" alt="Imagen del proyecto">
+                <div class="info">
+                    <h2>Mundo Verde</h2>
+                    <p>Creador: Naft3rit</p>
+                    <a href="/pages/mundoverde.html" class="button">Ver Mundo</a>
+                </div>
+            </article>
+            <a href="#top"><i class="fa-solid fa-arrow-up fa-beat arrow-top"></i></a>
         </section>
-        </form>
+
     </main>
     <footer>
-        <form action="">
-            <fieldset>
-                <button type="button">
-                    <a href="./pages/atencionalcliente.html" target="_blank">
-                        <img src="../img/apoyo (2).png" alt="" class="imgfooter1">
-                    </a>
-                </button>
-                <button type="button">
-                    <a href="https://es-la.facebook.com/" target="_blank">
-                        <img src="../img/Face.png" alt="" class="imgfooter1">
-                    </a>
-                </button>
-                <button type="button">
-                    <a href="https://twitter.com/" target="_blank">
-                        <img src="../img/twitter (1).png" alt="" class="imgfooter1">
-                    </a>
-                </button>
-                <button type="button">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="../img/IG.png" alt="" class="imgfooter1">
-                    </a>
-                </button>
-            </fieldset>
-        </form>
+        <p>Contactame!</p>
+        <nav> <!-- Etiqueta contenedora general -->
+            <a target="_blank" href="#"><i class="fa-brands fa-github-alt"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </nav>
     </footer>
 </body>
 
