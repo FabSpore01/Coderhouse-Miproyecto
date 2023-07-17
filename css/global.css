@@ -10,7 +10,7 @@
 
 :root{
     --color-primario: #6bdc7a;
-    --color-secundario: #172601;
+    --color-secundario: #4c7e02;
     --color-white: #FFFFFF;
 }
 
@@ -18,7 +18,9 @@ html{
     scroll-behavior: smooth;
 }
 
-
+.bodynevado{
+    background-image: url(../img/montaña.png);
+}
 body{
     background-color: var(--color-primario);
     font-family: 'Montserrat', sans-serif;
@@ -57,5 +59,66 @@ ul{
     
 }
 
+@media (max-width:1024px){
+    header{
+        background-color: rgb(144, 230, 238);
+        justify-content: space-around;
+    }
+    .navBar li a{
+        color: black;
+    }
+    .navBar li a:hover{
+        color: white;
+    }
+}
 
+/*medida de tablet*/
+@media (max-width:768px){
+    header{
+        background-color: lime;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    .grid{
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,200px);
+        grid-template-areas: 
+        "col1 col2"
+        "col3 col4"
+        ;
+    }
+    .color5{
+        display: none;
+    }
+}
+@media (max-width:425px){
+    .navBar{
+        flex-direction: column;
+    }
+    .navBar li a{
+        font-size: 1.4375rem;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,200px);
+        grid-template-areas: 
+        "col1"
+        "col6"
+        "col1"
+        "col3"
+        "col4"
+        ;
+    }
+    .color6{
+        display: block;
+        grid-area: col6;
+        background-color: lemonchiffon;
+    }
+}
+@media (max-width:375px){
+    
+}
+@media (max-width:320px){
+    
+}
 
