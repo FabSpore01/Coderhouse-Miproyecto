@@ -91,7 +91,7 @@ ul{
         display: none;
     }
 }
-@media (max-width:425px){
+@media (max-width:320px){
     .navBar{
         flex-direction: column;
     }
@@ -114,11 +114,5 @@ ul{
         grid-area: col6;
         background-color: lemonchiffon;
     }
-}
-@media (max-width:375px){
-    
-}
-@media (max-width:320px){
-    
 }
 
