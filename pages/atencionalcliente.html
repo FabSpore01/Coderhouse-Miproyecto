@@ -4,69 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- link a google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-
-    <!-- link a fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- link favicon -->
-    <link rel="shortcut icon" href="../img/world.png" type="image/x-icon">
-
-    <!-- link a css -->
-    <link rel="stylesheet" href="../css/global.css">
-
-    <title>Programación web</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="../css/atencion.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
-<body>
-    <header> <!-- Etiqueta semantica de encabezado -->
-        <img src="../img/Mi proyecto (3).png" alt="Logo Github" class="imagenLogoHeader">
-        <nav>
-            <ul class="navbar">
-                <li> 
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/somos.html">Quiénes somos</a>
-                </li>
-                <li>
-                    <a href="../pages/servicio.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="../pages/atencionalcliente.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <nav> <!-- Etiqueta contenedora general -->
-            <a target="_blank" href="#"><i class="fa-brands fa-github-alt"></i></a>
-            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a target="_blank" href="./user.html"><i class="fa fa-address-card" style="font-size:36px"></i></a>
-            <i class="fa-solid fa-bars menu"></i>
-        </nav>
-    </header>
-    <main>
-        <div class="banner">
-            <div class="bannerinfo">
-                <img src="./img/Mi proyecto (3).png" alt="" class="imgbanner">
-                <h1>Elige tu propio mundo</h1>
+<body class="body-at">
+
+    <div class="content">
+
+        <h1 class="logo">Atencion al <span>Cliente</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contacto</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Mail</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero de teléfono</label>
+                        <input type="tel" name="phone">
+                    </p>
+
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Mas información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Pixel World</li>
+                    <li><i class="fas fa-phone"></i> +54 0261456987</li>
+                    <li><i class="fas fa-envelope-open-text"></i> PixelWorld@hotmail.com</li>
+                </ul>
+                <p>Ante cualquier tipo de consulta complete el siguiente formulario</p>
+                <p>PixelWorld.com</p>
             </div>
         </div>
-        <h1>Contactanos</h1>
 
-    </main>
-    <footer>
-        <p>Contactame!</p>
-        <nav> <!-- Etiqueta contenedora general -->
-            <a target="_blank" href="#"><i class="fa-brands fa-github-alt"></i></a>
-            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </nav>
-    </footer>
+    </div>
+
 </body>
 
 </html>
