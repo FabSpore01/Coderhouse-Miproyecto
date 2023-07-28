@@ -1,15 +1,17 @@
 .banner{
     background-image: url("../img/banner.png");
+
+}
+.bannerinfo{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;  
-
     display: flex;   
     justify-content: center;
     align-items: start;
     padding-top: 100px;
 }
-.bannerinfo{
-    background-color: rgba(255, 255, 255, 0.587);
+.imgbanner{
+    width: 70%;
+    height: 70%;
 }
