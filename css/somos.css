@@ -1,0 +1,11 @@
+.bodysomos{
+    background-image: url(../img/banner.png);
+}
+.h2{
+    text-align: center;
+    background-color: rgba(20, 209, 251, 0.719);
+}
+.p{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.792);
+}

@@ -25,28 +25,17 @@
 </head>
 
 <body class="bodynevado">
-    <header> <!-- Etiqueta semantica de encabezado -->
-        <img src="../img/Mi proyecto (3).png" alt="Logo Github" class="imagenLogoHeader">
-        <nav>
-            <ul class="navbar">
-                <li> 
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/somos.html">Quiénes somos</a>
-                </li>
-                <li>
-                    <a href="../pages/servicio.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="../pages/atencionalcliente.html">Contacto</a>
-                </li>
+    <header class="header">
+        <a href="./index.html"><img src="../img/Mi proyecto (3).png" alt="Logo Github" class="logo"></a>
+        <input type="checkbox" id="side-menu" class="side-menu">
+        <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/somos.html">Quiénes somos</a></li>
+                <li><a target="_blank" href="../pages/atencionalcliente.html">Atencion al cliente</a></li>
+                <li><a target="_blank" href="../pages/user.html">Ingresar</a></li>
             </ul>
-        </nav>
-        <nav> <!-- Etiqueta contenedora general -->
-            <a target="_blank" href="./user.html"><i class="fa fa-address-card" style="font-size:36px"></i></a>
-
-            <i class="fa-solid fa-bars menu"></i>
         </nav>
     </header>
     <main>
