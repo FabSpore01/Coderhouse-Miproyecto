@@ -28,7 +28,7 @@ ul {
 }
 
 .logo span {
-    color: #B70E21;
+    color: #0bf186;
 }
 
 .contact-wrapper {
@@ -40,7 +40,7 @@ ul {
 }
 
 .contact-form {
-    background: #222222;
+    background: #0d8a7f;
 }
 
 .contact-form form {
@@ -70,11 +70,11 @@ ul {
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid #30d6d6;
 }
 
 .contact-form form button {
-    background: #B70E21;
+    background: #43e674;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -82,7 +82,7 @@ ul {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #d63031;
+    background: #30d691;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
