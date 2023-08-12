@@ -1,0 +1,19 @@
+.banner{
+    background-image: url("../img/banner.png");
+}
+.bannerinfo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: start;
+    padding-top: 100px;
+    display: flex;   
+    height: 80%;
+}
+.imgbanner{
+    background-position: center;
+
+    height: 70%;
+    width: 70%;
+}

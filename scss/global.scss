@@ -1,0 +1,18 @@
+@import "./base/_reset";
+@import "./base/_typo";
+
+@import "./components/_carta";
+@import "./components/_boton";
+
+@import "./layout/_footer";
+@import "./layout/_header";
+@import "./layout/_atencion";
+@import "./layout/_user.scss";
+@import "./layout/_index";
+@import "./layout/_somos";
+@import "./layout/_banner";
+@import "./layout/_main";
+@import "./layout/body";
+
+@import "./utilities/variables";
+@import "./utilities/_mixins";
