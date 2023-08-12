@@ -1,6 +1,7 @@
 # Entrega-Final-Lucas-Yanzon-CH
 Alumno: Lucas Yanzon
 Hotmail: Lujaya01@hotmail.com
+
 <span>![</span><span>Imagen de PixelWorld</span><span>]</span><span>(</span><span>[https://github.com/FabSpore01/Entrega-Final-Lucas-Yanzon-CH/blob/master/img/Mi%20proyecto%20(3).png]</span><span>)</span>
 
 Este es un proyecto de un sitio web para una empresa de video juego ficticia llamada "PixelWorld". 
