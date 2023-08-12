@@ -1,0 +1,24 @@
+@media (max-width:375px){
+    .navBar{
+        flex-direction: column;
+    }
+    .navBar li a{
+        font-size: 1.4375rem;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,200px);
+        grid-template-areas: 
+        "col1"
+        "col6"
+        "col1"
+        "col3"
+        "col4"
+        ;
+    }
+    .color6{
+        display: block;
+        grid-area: col6;
+        background-color: lemonchiffon;
+    }
+}

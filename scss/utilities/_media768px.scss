@@ -1,0 +1,19 @@
+@media (max-width:768px){
+    header{
+        background-image: ;
+        background-color: lime;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    .grid{
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,200px);
+        grid-template-areas: 
+        "col1 col2"
+        "col3 col4"
+        ;
+    }
+    .color5{
+        display: none;
+    }
+}
