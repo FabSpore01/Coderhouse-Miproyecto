@@ -24,9 +24,9 @@
     <title>Programación web</title>
 </head>
 
-<body class="bodyotoño">
-    <header> <!-- Etiqueta semantica de encabezado -->
-        <a href="./index.html"><img src="../img/Mi proyecto (3).png" alt="Logo Github" class="logo"></a>
+<body class="bodydesierto">
+    <header class="header">
+        <a href="../index.html"><img src="../img/Mi proyecto (3).png" alt="Logo Github" class="logo"></a>
         <input type="checkbox" id="side-menu" class="side-menu">
         <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
         <nav class="nav">
@@ -37,56 +37,61 @@
                 <li><a target="_blank" href="../pages/user.html">Ingresar</a></li>
             </ul>
         </nav>
+    </header>
     <main>
-        <div class="banner">
-            <div class="bannerinfo">
-                <img src="./img/Mi proyecto (3).png" alt="" class="imgbanner">
-                <h1>Elige tu propio mundo</h1>
+        <section>
+            <div>
+                <h1 class="titleInfo">Bienvenido a Pixelia</h1>
             </div>
-        </div>
+        </section>
+        <section>
+            <article>
+                <div>
+                    <h2 class="titleInfo">En el vasto universo digital de Pixelia, existe un mundo único conocido como Desértex, donde
+                        la arena y los colores cálidos de los píxeles se extienden hasta donde alcanza la vista. En este mundo,
+                        todo está compuesto por píxeles que brillan bajo la luz del sol.
+                        <br>
+                        <br>
+                        En medio de esta extensión árida vive una figura solitaria llamada Pixelus. Pixelus es un ser hecho
+                        completamente de píxeles, con la apariencia de un aventurero con sombrero y capa. Recorre el Desértex en
+                        busca de un legendario tesoro que se dice otorgará el conocimiento absoluto sobre la naturaleza de su
+                        mundo.</h2>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3 class="titleInfo2">Selecciona un personaje</h3>
+            </article>
+        </section>
         <section class="listadoCartas">
-
             <article class="card">
-                <img src="./img/montaña.png" alt="Imagen del proyecto">
+                <img src="../img/explorador.png" alt="Imagen del proyecto">
                 <div class="info">
-                    <h2>Mundo Nevado</h2>
-                    <p>Creador: GtuvToxic</p>
+                    <h2>Explorador</h2>
                     <a href="./pages/mundonevado.html" class="button">Ver Mundo</a>
                 </div>
             </article>
             <article class="card">
-                <img src="./img/desierto.png" alt="Imagen del proyecto">
+                <img src="../img/chatarrero.png" alt="Imagen del proyecto">
                 <div class="info">
-                    <h2>Mundo Desierto</h2>
-                    <p>Creador: Armydestrix</p>
+                    <h2>Chatarrero</h2>
                     <a href="/pages/mundootoño.html" class="button">Ver Mundo</a>
                 </div>
             </article>
             <article class="card">
-                <img src="./img/playa.png" alt="Imagen del proyecto">
+                <img src="../img/cowboy.png" alt="Imagen del proyecto">
                 <div class="info">
-                    <h2>Mundo Playero</h2>
-                    <p>Creador: Grefdast</p>
+                    <h2>Cowboy</h2>
                     <a href="/pages/mundoplayero.html" class="button">Ver Mundo</a>
                 </div>
             </article>
-            <article class="card">
-                <img src="./img/imgmontaña.png" alt="Imagen del proyecto">
-                <div class="info">
-                    <h2>Mundo Verde</h2>
-                    <p>Creador: Naft3rit</p>
-                    <a href="/pages/mundoverde.html" class="button">Ver Mundo</a>
-                </div>
-            </article>
-            <a href="#top"><i class="fa-solid fa-arrow-up fa-beat arrow-top"></i></a>
-        </section>
-
     </main>
     <footer>
         <p>Contactame!</p>
-        <nav> <!-- Etiqueta contenedora general -->
-            <a target="_blank" href="#"><i class="fa-brands fa-github-alt"></i></a>
-            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <nav>
+            <a target="_blank" href="./pages/user.html"><i style="font-size:24px" class="fa">&#xf2bb;</i></a>
+            <a target="_blank" href="./pages/atencionalcliente.html"><i style="font-size:24px" class="fa">&#xf0e6;</i></a>
         </nav>
     </footer>
 </body>
