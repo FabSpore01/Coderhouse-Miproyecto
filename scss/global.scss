@@ -15,8 +15,11 @@
 @import "./layout/_main";
 @import "./layout/body";
 
+@import "./utilities/funciones";
 @import "./utilities/variables";
 @import "./utilities/_mixins";
 @import "./utilities/media1440";
+@import "./utilities/media1366";
 @import "./utilities/media768px";
 @import "./utilities/media374";
+@import "./utilities/media360";

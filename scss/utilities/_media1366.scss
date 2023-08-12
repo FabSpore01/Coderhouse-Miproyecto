@@ -1,0 +1,12 @@
+@media (max-width:1024px){
+    header{
+        background-color: rgb(144, 230, 238);
+        justify-content: space-around;
+    }
+    .navBar li a{
+        color: black;
+    }
+    .navBar li a:hover{
+        color: white;
+    }
+}
